@@ -1,0 +1,1 @@
+{"system_uuid": "00000000-0000-0000-0000-000000000000", "version": "3.0.1-89-g55e6d9fd6", "ansible_version": "2.7.5", "license_type": "open", "authentication_backends": ["awx.sso.backends.TACACSPlusBackend", "django.contrib.auth.backends.ModelBackend"], "logging_aggregators": ["awx", "activity_stream", "job_events", "system_tracking"]}
