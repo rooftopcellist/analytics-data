@@ -1,1 +1,1 @@
-{"uuid": "00000000-0000-0000-0000-000000000000", "version": "3.0.1-244-g42b684f78", "capacity": 294, "cpu": 8, "memory": 33072807936, "managed_by_policy": true}
+{"a44dc992-b4bd-4338-a231-b62bff0d6743": {"uuid": "a44dc992-b4bd-4338-a231-b62bff0d6743", "version": "3.5.0", "capacity": 54, "cpu": 2, "memory": 7891136512, "managed_by_policy": true, "last_isolated_check": null, "enabled": true}}

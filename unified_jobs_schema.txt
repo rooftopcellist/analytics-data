@@ -1,0 +1,22 @@
+Table "public.main_unifiedjob"
+Column                  |           Type           |
+------------------------+--------------------------+
+id                      | integer                  |
+polymorphic_ctype_id    | integer                  |
+model                   | character varying(100)   |
+created                 | timestamp with time zone |
+name                    | character varying(512)   |
+unified_job_template_id | integer                  |
+launch_type             | character varying(20)    |
+schedule_id             | integer                  |
+execution_node          | text                     |
+controller_node         | text                     |
+cancel_flag             | boolean                  |
+status                  | character varying(20)    |
+failed                  | boolean                  |
+started                 | timestamp with time zone |
+finished                | timestamp with time zone |
+elapsed                 | numeric(12,3)            |
+job_explanation         | text                     |
+instance_group_id       | integer                  |
+

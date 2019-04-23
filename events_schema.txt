@@ -1,0 +1,19 @@
+Table "public.main_jobevent"
+Column                  |           Type           |
+------------------------+--------------------------+
+id                      | integer                  |
+created                 | timestamp with time zone |
+uuid                    | character varying(1024)  |
+parent_uuid             | character varying(1024)  |
+event                   | character varying(100)   |
+event_data::task_action | text                     |  # JSON
+failed                  | boolean                  |
+changed                 | boolean                  |
+playbook                | character varying(1024)  |
+play                    | character varying(1024)  |
+task                    | character varying(1024)  |
+role                    | character varying(1024)  |
+job_id                  | integer                  |
+host_id                 | integer                  |
+host_name               | character varying(1024)  |
+

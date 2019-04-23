@@ -1,0 +1,19 @@
+Table "public.main_unifiedjobtemplate"
+Column               |           Type           |
+---------------------+--------------------------+
+id                   | integer                  |
+polymorphic_ctype_id | integer                  | 
+model                | character varying(100)   |
+created              | timestamp with time zone |
+modified             | timestamp with time zone |
+created_by_id        | integer                  |
+modified_by_id       | integer                  |
+name                 | character varying(512)   |
+current_job_id       | integer                  |
+last_job_failed      | boolean                  |
+last_job_id          | integer                  |
+last_job_run         | timestamp with time zone |
+next_job_run         | timestamp with time zone |
+next_schedule_id     | integer                  |
+status               | character varying(32)    |
+

@@ -1,1 +1,1 @@
-{"1": {"name": "Demo Inventory", "kind": "", "hosts": 1, "sources": 0}, "2": {"name": "All Scale Hosts", "kind": "smart", "num_hosts": 0, "num_sources": 0}}
+{"2": {"name": "Database Servers", "kind": "", "hosts": 1, "sources": 0}, "3": {"name": "King PLC", "kind": "", "hosts": 0, "sources": 0}}

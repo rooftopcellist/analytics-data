@@ -1,0 +1,4 @@
+1	1	systemjobtemplate	2019-04-23 15:21:41.874365+00	2019-04-23 15:21:41.874365+00	\N	\N	Cleanup Job Details	\N	\N	f	\N	\N	\N	ok
+2	1	systemjobtemplate	2019-04-23 15:21:41.874365+00	2019-04-23 15:21:41.874365+00	\N	\N	Cleanup Activity Stream	\N	\N	f	\N	\N	\N	ok
+6	40	project	2019-04-23 20:58:52.934367+00	2019-04-23 20:58:58.332328+00	1	1	Project from Git	\N	1	f	2019-04-23 20:58:58.362497+00	\N	\N	successful
+7	40	project	2019-04-23 20:58:58.990208+00	2019-04-23 20:58:58.990218+00	1	1	Example	\N	\N	f	2019-04-23 20:58:38.699209+00	\N	\N	ok
