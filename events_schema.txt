@@ -6,12 +6,12 @@ created                 | timestamp with time zone |
 uuid                    | character varying(1024)  |
 parent_uuid             | character varying(1024)  |
 event                   | character varying(100)   |
-event_data::task_action | text                     |  # JSON
+event_data::task_action | text                     |  # Name of Module used from event_data JSON
 failed                  | boolean                  |
 changed                 | boolean                  |
 playbook                | character varying(1024)  |
 play                    | character varying(1024)  |
-task                    | character varying(1024)  |
+task                    | character varying(1024)  |  # Task name given by playbook author
 role                    | character varying(1024)  |
 job_id                  | integer                  |
 host_id                 | integer                  |
